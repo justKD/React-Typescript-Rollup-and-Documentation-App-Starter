@@ -2,7 +2,7 @@
 
 ##### v 2.0.0 | © Cadence Holmes 2020 | MIT License
 
-This is a starter template for React Typescript projects. It includes a template for creating an app for documentation purposes and dev tools for bundling modules via Rollup.
+This is one of my starter templates for React Typescript projects. It includes a template for creating an app for documentation purposes and dev tools for bundling modules via Rollup.
 
 [Fork on CodeSandbox](https://codesandbox.io/s/elated-water-vvn6c?file=/README.md)
 
