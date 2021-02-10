@@ -18,9 +18,9 @@ This is a starter template for React Typescript projects. It includes a template
 
 ##### `./src/dev/build/MyModule.js` is the entry point for building your module.
 
-This is where you should put JS (not TS) versions of your module files prepared for bundling. Don't remove `build/index.js`!
+- This is where you should put JS (not TS) versions of your module files prepared for bundling. Don't remove `build/index.js`!
 
-##### Update `./src/dev/build/index.js
+##### Update `./src/dev/build/index.js`
 
 - Update the import (ie. change the path and name to match your module files).
 - Name definitions with your modules information.
@@ -34,15 +34,15 @@ This is where you should put JS (not TS) versions of your module files prepared 
 
 ##### `./src/dist/MyModule.bundle.js` is the bundled result from `MyModule.js`.
 
-This file is an example of what the bundled output will look like.
+- This file is an example of what the bundled output will look like.
 
-##### To remove the bundling features and UI controls:
+##### Removing the bundling features and UI controls
 
 - Delete the `./src/dev/` folder.
 - Remove `rollup` and `rollup-plugin-cleanup` from the dependencies in `package.json`.
 - Remove the rollup import from `./src/index.tsx`.
 
-##### Client Template Instructions
+##### Client template instructions
 
 - See the example components and build your own.
 - Then update `./src/client/AppInfo.tsx/`.
