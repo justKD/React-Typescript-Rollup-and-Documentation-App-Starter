@@ -1,4 +1,4 @@
-# React-Typescript-Docs-Dev-Starter
+# React-Typescript-Rollup-and-Documentation-App-Starter
 
 ##### v 2.0.0 | © Cadence Holmes 2020 | MIT License
 
@@ -8,7 +8,9 @@ This is a starter template for React Typescript projects. It includes a template
 
 ---
 
-## Remove this section once you've updated the template for your own project.
+## Dev Instructions
+
+### Remove this section once you've updated the template for your own project.
 
 #### Bundling Template Instructions
 
@@ -49,6 +51,8 @@ This file is an example of what the bundled output will look like.
   - Change `drawerWidth` as needed.
 
 ---
+
+## This section is the actual readme template for the project.
 
 ## Install
 
