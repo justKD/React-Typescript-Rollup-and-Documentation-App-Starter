@@ -10,39 +10,39 @@ This is a starter template for React Typescript projects. It includes a template
 
 ## Dev Instructions
 
-### Remove this section once you've updated the template for your own project.
+#### Remove this section once you've updated the template for your own project.
 
-#### Bundling Template Instructions
+### Bundling Template Instructions
 
-### `./src/Module/` should be replaced with your modules folder/files.
+##### `./src/Module/` should be replaced with your modules folder/files.
 
-### `./src/dev/build/MyModule.js` is the entry point for building your module.
+##### `./src/dev/build/MyModule.js` is the entry point for building your module.
 
 This is where you should put JS (not TS) versions of your module files prepared for bundling. Don't remove `build/index.js`!
 
-### Update `./src/dev/build/index.js
+##### Update `./src/dev/build/index.js
 
 - Update the import (ie. change the path and name to match your module files).
 - Name definitions with your modules information.
 - Update the namespace that `window` will use to store your module in the case the environment is not actually modular (eg. served over CDN).
 
-### `./src/dev` contains files that handle bundling your module.
+##### `./src/dev` contains files that handle bundling your module.
 
 - If you don't see the UI buttons, refresh your page.
 - `Copy Bundle` will copy the bundled file contents to your clipboard.
 - `Download Bundle` will download the bundle as `bundle.js`.
 
-### `./src/dist/MyModule.bundle.js` is the bundled result from `MyModule.js`.
+##### `./src/dist/MyModule.bundle.js` is the bundled result from `MyModule.js`.
 
 This file is an example of what the bundled output will look like.
 
-### To remove the bundling features and UI controls:
+##### To remove the bundling features and UI controls:
 
 - Delete the `./src/dev/` folder.
 - Remove `rollup` and `rollup-plugin-cleanup` from the dependencies in `package.json`.
 - Remove the rollup import from `./src/index.tsx`.
 
-#### Client Template Instructions
+##### Client Template Instructions
 
 - See the example components and build your own.
 - Then update `./src/client/AppInfo.tsx/`.
