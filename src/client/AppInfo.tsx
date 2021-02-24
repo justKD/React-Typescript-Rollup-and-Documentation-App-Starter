@@ -78,9 +78,21 @@ export const headerDescription = () => {
  */
 export const exampleLists = () => {
   const examples = [
-    { title: 'Example 1', href: '#example-1', component: <FirstExample /> },
-    { title: 'Example 2', href: '#example-2', component: <SecondExample /> },
-    { title: 'Example 3', href: '#example-3', component: <ThirdExample /> },
+    {
+      title: 'Example 1',
+      href: '#example-1',
+      component: <FirstExample />,
+    },
+    {
+      title: 'Example 2',
+      href: '#example-2',
+      component: <SecondExample />,
+    },
+    {
+      title: 'Example 3',
+      href: '#example-3',
+      component: <ThirdExample />,
+    },
   ];
 
   const category1 = [examples[0], examples[1]];

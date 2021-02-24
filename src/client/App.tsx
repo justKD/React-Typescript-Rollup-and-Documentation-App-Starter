@@ -162,8 +162,12 @@ export const App = (): React.ReactElement => {
   }, [classes.accordion, classes.code]);
 
   const Description = React.useMemo(() => {
-    return description.map((paragraph) => {
-      return <div className={classes.description}>{paragraph}</div>;
+    return description.map((paragraph, index) => {
+      return (
+        <div key={index} className={classes.description}>
+          {paragraph}
+        </div>
+      );
     });
   }, [description, classes.description]);
 
@@ -194,13 +198,8 @@ export const App = (): React.ReactElement => {
               <React.Fragment key={sectionIndex}>
                 <List>
                   {list.map((item, itemIndex) => (
-                    <React.Fragment>
-                      <ListItem
-                        component='a'
-                        button
-                        key={item.title}
-                        href={item.href}
-                      >
+                    <React.Fragment key={itemIndex}>
+                      <ListItem component='a' button href={item.href}>
                         <ListItemText primary={item.title} />
                       </ListItem>
                       {sectionIndex < drawerContentLists.length - 1 &&
@@ -269,7 +268,9 @@ export const App = (): React.ReactElement => {
         <div id='app-content' className={classes.container}>
           {drawerContentLists.length > 0 &&
             drawerContentLists.map((category) =>
-              category.map((example) => example.component)
+              category.map((example, index) => (
+                <div key={index}>{example.component}</div>
+              ))
             )}
         </div>
       </div>
